@@ -1,0 +1,545 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 30px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .block.bg
+    {
+        padding: 50px 0 60px;
+    }
+
+
+    .block.bg.equally
+    {
+        padding: 60px 0;
+    }
+
+    .block.bg.equally_small
+    {
+        padding: 50px 0;
+    }
+
+
+    .block.small_m
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        font-size: 14px;
+    }
+
+
+    .tab_content.active
+    {
+        padding: 30px 24px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding: 60px 0;
+    }
+
+
+    .page_head .image,
+    .page_head .bg
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*-------------
+        Welcome
+    -------------*/
+    .welcome .image
+    {
+        height: 224px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-----------------------------
+        Education & development
+    -----------------------------*/
+    .education_development .bg
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .education_development .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .wheelSlider-container .slide.next,
+    .wheelSlider-container .slide.prev
+    {
+        transform: scale(1);
+    }
+
+
+    .wheelSlider-container .slide.prev
+    {
+        margin-left: -30px;
+    }
+
+    .wheelSlider-container .slide.next
+    {
+        margin-left: 30px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image img
+    {
+        min-height: 200px;
+    }
+
+
+
+    /*------------
+        Search
+    ------------*/
+    .search .form .line,
+    .search .form .line.big
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page
+    {
+        padding: 60px 0;
+    }
+
+
+    .error_page .title br.mob
+    {
+        display: block;
+    }
+
+
+    .error_page .image
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-left: 0;
+    }
+
+
+    .steps .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .feedback .bg
+    {
+        object-position: 90% 50%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .cont .row
+    {
+        margin-left: 0;
+    }
+
+
+    .contacts_info .cont .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .image
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------------
+        Education info
+    --------------------*/
+    .education_info .image img
+    {
+        min-height: 173px;
+    }
+
+
+
+    /*----------------------
+        Education why we
+    ----------------------*/
+    .education_why_we .row
+    {
+        margin-left: 0;
+    }
+
+
+    .education_why_we .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        Areas of study
+    --------------------*/
+    .areas_of_study .row
+    {
+        margin-left: 0;
+    }
+
+
+    .areas_of_study .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Article image
+    -------------------*/
+    .article_info .image
+    {
+        height: 292px;
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------
+        Employment
+    ----------------*/
+    .employment .image
+    {
+        height: 208px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project
+    {
+        padding: 29px 23px;
+    }
+
+
+    .projects .project .thumb
+    {
+        min-height: 240px;
+    }
+
+
+
+    /*---------------
+        Companies
+    ---------------*/
+    .companies .company
+    {
+        padding: 29px 23px;
+    }
+
+
+    .companies .company .thumb
+    {
+        min-height: 240px;
+    }
+
+
+
+    /*------------------------
+        Company advantages
+    ------------------------*/
+    .company_advantages .row
+    {
+        margin-left: 0;
+    }
+
+
+    .company_advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .filter .sort .label
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+
+    .vacancies .filter .sort .field
+    {
+        width: 100%;
+    }
+
+
+    .vacancies .filter .sort .field + .field
+    {
+        margin-left: 0;
+    }
+
+
+
+    .vacancies .vacancy .row + .row
+    {
+        margin-top: 0;
+    }
+
+
+    .vacancies .vacancy .name
+    {
+        width: 100%;
+    }
+
+
+    .vacancies .vacancy .price
+    {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .vacancies .vacancy .desc
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .vacancies .vacancy .company
+    {
+        margin-top: 30px;
+    }
+
+
+    .vacancies .vacancy .dates
+    {
+        width: 100%;
+        margin-top: 16px;
+
+        text-align: left;
+    }
+
+
+    .vacancies .vacancy .link
+    {
+        display: none;
+    }
+
+    .vacancies .vacancy .mob_link
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Our offers
+    ----------------*/
+    .our_offers .image
+    {
+        min-height: 224px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /*----------------------
+        Logistics sphere
+    ----------------------*/
+    .logistics_sphere .image
+    {
+        min-height: 224px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .gallery .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*---------------
+        How order
+    ---------------*/
+    .how_order .image
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .how_order .image img
+    {
+        min-height: 224px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 30px;
+    }
+
+
+
+    #region_modal .form .input
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

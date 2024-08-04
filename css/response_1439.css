@@ -1,0 +1,765 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 40px;
+        --font_size_title_small: 32px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .block.bg
+    {
+        padding: 68px 0 80px;
+    }
+
+
+    .block.bg.equally
+    {
+        padding: 80px 0;
+    }
+
+    .block.bg.equally_small
+    {
+        padding: 68px 0;
+    }
+
+
+    .block.small_m
+    {
+        margin-bottom: 68px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tab_content.active
+    {
+        padding-top: 40px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 36px 0;
+    }
+
+
+    header .region
+    {
+        margin-left: 48px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 48px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        padding: 16px 0;
+    }
+
+
+
+    .page_head .data
+    {
+        padding: 80px 0;
+    }
+
+
+    .page_head .page_desc
+    {
+        font-size: 18px;
+    }
+
+
+    .page_head .search
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .block_head .sub_title
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 80px 0;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .search
+    {
+        margin-top: 40px;
+    }
+
+
+    .first_section .bg
+    {
+        right: 24px;
+
+        margin-right: 0;
+    }
+
+
+
+    /*-------------
+        Welcome
+    -------------*/
+    .welcome .block_head .desc
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------------------------
+        Education & development
+    -----------------------------*/
+    .education_development .link
+    {
+        margin-top: 40px;
+    }
+
+
+    .education_development .bg
+    {
+        right: 24px;
+
+        margin-right: 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .wheelSlider-container
+    {
+        width: 400px;
+    }
+
+
+    .wheelSlider-container .wheelSlider-arrow[data-action='prev']
+    {
+        margin-left: -424px;
+    }
+
+
+    .wheelSlider-container .wheelSlider-arrow[data-action='next']
+    {
+        margin-right: -424px;
+    }
+
+
+    .reviews .review
+    {
+        padding: 30px;
+    }
+
+
+
+    /*------------
+        Search
+    ------------*/
+    .search .form .line
+    {
+        width: 200px;
+    }
+
+
+    .search .form .line.big
+    {
+        width: 268px;
+    }
+
+
+    .search .form .submit
+    {
+        width: 268px;
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page .data
+    {
+        width: 520px;
+        padding: 80px 0;
+    }
+
+
+    .error_page .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .error_page .link
+    {
+        display: none;
+    }
+
+
+    .error_page .image
+    {
+        max-width: calc(100% - 544px);
+        margin-right: -24px;
+    }
+
+
+
+    /*--------------------
+        Privacy policy
+    --------------------*/
+    .privacy_policy .link
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Thanks
+    ------------*/
+    .thanks .desc
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+        padding-top: 0;
+    }
+
+
+    .why_we .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    .why_we .row > *.big
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .why_we .item
+    {
+        min-height: 0;
+        padding-right: 29px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .services .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .services .item .icon
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .services .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .steps .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .steps .item
+    {
+        padding: 0;
+    }
+
+
+    .steps .item .number
+    {
+        font-size: 120px;
+        line-height: 110px;
+
+        width: 104px;
+        height: 110px;
+    }
+
+
+    .steps .item .name
+    {
+        font-size: var(--font_size);
+
+        width: calc(100% - 136px);
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .form
+    {
+        width: 520px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .cont .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .contacts_info .cont .row > *
+    {
+        width: calc(25% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+
+    /*--------------------
+        Education info
+    --------------------*/
+    .education_info .block_head .title
+    {
+        width: 440px;
+    }
+
+
+    .education_info .image
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*----------------------
+        Education why we
+    ----------------------*/
+    .education_why_we .row
+    {
+        margin-left: -30px;
+    }
+
+
+    .education_why_we .row > *
+    {
+        width: calc(25% - 30px);
+        margin-left: 30px;
+    }
+
+
+
+    /*--------------------
+        Areas of study
+    --------------------*/
+    .areas_of_study .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .areas_of_study .row > *
+    {
+        width: calc(50% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .areas_of_study .item .thumb
+    {
+        width: 308px;
+        min-height: 210px;
+    }
+
+
+    .areas_of_study .item .thumb + *
+    {
+        width: calc(100% - 308px);
+        padding: 29px 29px 29px 30px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+
+    /*-------------------
+        Article image
+    -------------------*/
+    .article_image .cont
+    {
+        padding: 0;
+    }
+
+
+    .article_image img
+    {
+        border-radius: 0;
+    }
+
+
+
+    /*-------------------
+        Article image
+    -------------------*/
+    .article_info .image
+    {
+        width: calc(50% + 4px);
+        height: 408px;
+        margin-right: -24px;
+    }
+
+
+
+    /*----------------
+        Employment
+    ----------------*/
+    .employment .image
+    {
+        width: calc(50% + 4px);
+        height: 292px;
+        margin-left: -24px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project
+    {
+        padding: 29px 29px 29px 0;
+    }
+
+
+    .projects .project + .project
+    {
+        margin-top: 40px;
+    }
+
+
+    .projects .project .thumb + *
+    {
+        width: calc(50% - 29px);
+    }
+
+
+
+    /*---------------
+        Companies
+    ---------------*/
+    .companies .company
+    {
+        padding: 29px 29px 29px 0;
+    }
+
+
+    .companies .company + .company
+    {
+        margin-top: 40px;
+    }
+
+
+    .companies .company .thumb + *
+    {
+        width: calc(50% - 29px);
+    }
+
+
+
+    /*------------------------
+        Company activities
+    ------------------------*/
+    .company_activities .block_head .desc
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------------------
+        Company advantages
+    ------------------------*/
+    .company_advantages .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .company_advantages .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .company_advantages .icon
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-------------------------
+        Empty search result
+    -------------------------*/
+    .empty_search_result
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .filter
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .vacancies .filter .sort
+    {
+        width: calc(100% - 350px);
+    }
+
+
+    .vacancies .filter .sort .label
+    {
+        margin-right: 20px;
+    }
+
+
+    .vacancies .filter .sort .field + .field
+    {
+        margin-left: 10px;
+    }
+
+
+
+    .vacancies .content
+    {
+        width: calc(100% - 350px);
+    }
+
+
+    .vacancies .list > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .text_block
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+
+    /*------------------------
+        Work in production
+    ------------------------*/
+    .work_in_production .block_head .title
+    {
+        width: 320px;
+    }
+
+
+    .work_in_production .block_head .desc
+    {
+        max-width: calc(100% - 350px);
+    }
+
+
+
+    /*----------------------
+        Logistics sphere
+    ----------------------*/
+    .logistics_sphere .block_head .desc
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------
+        How order
+    ---------------*/
+    .how_order .block_head .desc
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(25% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .advantages .icon
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 80px 0;
+    }
+
+
+    footer .menu_item + .menu_item
+    {
+        margin-left: 48px;
+    }
+}

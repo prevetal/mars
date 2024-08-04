@@ -1,0 +1,305 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .block.bg
+    {
+        padding: 50px 0;
+    }
+
+
+    .block.bg.equally
+    {
+        padding: 50px 0;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        font-size: 12px;
+    }
+
+
+    .tab_content.active
+    {
+        padding: 30px 20px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        height: 41px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding: 50px 0;
+    }
+
+
+    .page_head .page_title.mob_small
+    {
+        font-size: 26px;
+    }
+
+
+    .page_head .image,
+    .page_head .bg
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        padding-right: 43px;
+        padding-left: 43px;
+    }
+
+
+    .form .agree
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 50px 0;
+    }
+
+
+
+    /*-------------
+        Welcome
+    -------------*/
+    .welcome .image
+    {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+
+
+    /*-----------------------------
+        Education & development
+    -----------------------------*/
+    .education_development .bg
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page
+    {
+        padding: 50px 0;
+    }
+
+
+    .error_page .image
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-left: 0;
+    }
+
+
+    .services .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        Areas of study
+    --------------------*/
+    .areas_of_study .item .thumb + *
+    {
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+
+
+
+    /*-------------------
+        Article image
+    -------------------*/
+    .article_info .image
+    {
+        height: 236px;
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        Employment
+    ----------------*/
+    .employment .image
+    {
+        height: 203px;
+        margin-bottom: 30px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project
+    {
+        padding: 29px 19px;
+    }
+
+
+    .projects .project .thumb
+    {
+        min-height: 210px;
+    }
+
+
+
+    /*---------------
+        Companies
+    ---------------*/
+    .companies .company
+    {
+        padding: 29px 19px;
+    }
+
+
+    .companies .company .thumb
+    {
+        min-height: 210px;
+    }
+
+
+
+    /*----------------
+        Our offers
+    ----------------*/
+    .our_offers .image
+    {
+        min-height: 200px;
+        margin-bottom: 30px;
+    }
+
+
+
+    /*------------------------
+        Work in production
+    ------------------------*/
+    .work_in_production .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .work_in_production .image img
+    {
+        min-height: 200px;
+    }
+
+
+
+    /*----------------------
+        Logistics sphere
+    ----------------------*/
+    .logistics_sphere .image
+    {
+        min-height: 200px;
+        margin-bottom: 30px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .gallery .item .icon
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    .vacancy_info .gallery .item .icon:after
+    {
+        left: 4px;
+
+        width: 16px;
+        height: 20px;
+
+        border-top-width: 10px;
+        border-bottom-width: 10px;
+        border-left-width: 16px;
+    }
+
+
+
+    /*---------------
+        How order
+    ---------------*/
+    .how_order .image
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .how_order .image img
+    {
+        min-height: 200px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 50px 0;
+    }
+}

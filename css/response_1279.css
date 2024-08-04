@@ -1,0 +1,419 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 36px;
+        --font_size_title_small: 30px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 28px 0;
+    }
+
+
+    header .logo img
+    {
+        height: 48px;
+    }
+
+
+    header .region
+    {
+        width: 124px;
+        margin-left: 0;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 28px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .bg
+    {
+        bottom: 0;
+
+        height: 70%;
+        margin: auto 0;
+    }
+
+
+
+    /*-----------------------------
+        Education & development
+    -----------------------------*/
+    .education_development .bg
+    {
+        bottom: 0;
+
+        height: 70%;
+        margin: auto 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .wheelSlider-container
+    {
+        margin-bottom: 70px;
+    }
+
+
+    .wheelSlider-container .wheelSlider-arrow[data-action='prev']
+    {
+        top: auto;
+        bottom: -70px;
+        left: 0;
+
+        margin-left: 0;
+    }
+
+
+    .wheelSlider-container .wheelSlider-arrow[data-action='next']
+    {
+        top: auto;
+        right: 0;
+        bottom: -70px;
+
+        margin-right: 0;
+    }
+
+
+    .reviews .wheelSlider-container .dots
+    {
+        display: flex;
+    }
+
+
+
+    /*------------
+        Search
+    ------------*/
+    .search .form
+    {
+        margin-left: -24px;
+    }
+
+
+    .search .form .line,
+    .search .form .line.big
+    {
+        width: calc(25% - 24px);
+        margin-right: 0;
+        margin-left: 24px;
+    }
+
+
+    .search .form .submit
+    {
+        width: calc(100% - 24px);
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page .data
+    {
+        width: 424px;
+    }
+
+
+    .error_page .image
+    {
+        align-self: center;
+
+        max-width: calc(100% - 440px);
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row > *,
+    .why_we .row > *.big
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .block_head
+    {
+        width: calc(100% - 508px);
+    }
+
+
+    .feedback .form
+    {
+        width: 440px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .cont .row > *
+    {
+        width: calc(33.333% - 30px);
+    }
+
+
+
+    /*--------------------
+        Education info
+    --------------------*/
+    .education_info .block_head .title
+    {
+        width: 404px;
+    }
+
+
+    .education_info .block_head .desc
+    {
+        width: calc(100% - 452px);
+    }
+
+
+    .education_info .image
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*----------------------
+        Education why we
+    ----------------------*/
+    .education_why_we .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*--------------------
+        Areas of study
+    --------------------*/
+    .areas_of_study .item
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .areas_of_study .item .thumb
+    {
+        width: 100%;
+        height: 210px;
+        min-height: 210px;
+
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    .areas_of_study .item .thumb + *
+    {
+        flex: 1 0 auto;
+
+        width: 100%;
+        padding: 30px 29px 29px;
+
+        border-top: none;
+        border-left: 1px solid #2f7abe;
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    .areas_of_study .item .name
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project + .project
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*---------------
+        Companies
+    ---------------*/
+    .companies .company + .company
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------------
+        Company activities
+    ------------------------*/
+    .company_activities .block_head .desc
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .filter .hot,
+    .vacancies .filter .all_link
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .vacancies .filter .sort
+    {
+        width: 100%;
+    }
+
+
+
+    .vacancies .content
+    {
+        width: 100%;
+    }
+
+
+    .vacancies aside
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .vacancies .content + aside
+    {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+
+    .vacancy_info aside .bottom
+    {
+        display: none;
+    }
+
+
+
+    .vacancies .swiper .controls
+    {
+        display: flex;
+    }
+
+
+
+    /*------------------------
+        Work in production
+    ------------------------*/
+    .work_in_production .block_head .title
+    {
+        width: 280px;
+    }
+
+
+    .work_in_production .block_head .desc
+    {
+        max-width: calc(100% - 320px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        height: 48px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 14px;
+
+        margin-top: 28px;
+    }
+
+
+    footer .menu_item + .menu_item
+    {
+        margin-left: 28px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 800px;
+        padding: 50px;
+    }
+}
