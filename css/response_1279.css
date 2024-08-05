@@ -416,4 +416,12 @@
         width: 800px;
         padding: 50px;
     }
+
+
+
+    #callback_modal
+    {
+        width: 600px;
+        padding: 50px;
+    }
 }

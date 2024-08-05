@@ -168,7 +168,7 @@
 										<div class="desc">Работа каменщиком в&nbsp;Екатеринбурге. Опыт от&nbsp;3&nbsp;лет. Стабильная зарплата и&nbsp;социальные гарантии.</div>
 
 										<div class="link">
-											<a href="/">Откликнуться</a>
+											<button class="btn modal_btn" data-modal="callback_modal">Откликнуться</button>
 										</div>
 									</div>
 
@@ -182,7 +182,7 @@
 									</div>
 
 									<div class="link mob_link">
-										<a href="/">Откликнуться</a>
+										<button class="btn modal_btn" data-modal="callback_modal">Откликнуться</button>
 									</div>
 								</div>
 							</div>
@@ -395,6 +395,43 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Обратный звонок</div>
+
+			<div class="modal_desc">Заполните форму, чтобы мы могли Вам перезвонить. Проконсультируем по нашим услугам и стоимости</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Имя*">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="Телефон*">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+
+				<div class="agree">
+					<label class="checkbox">
+						<input type="checkbox" name="agree" checked>
+
+						<div class="check">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+
+						<div>Даю согласию на обработку моих персональных данных</div>
+					</label>
 				</div>
 			</form>
 		</section>

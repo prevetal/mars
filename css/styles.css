@@ -1322,6 +1322,81 @@ header .contacts .messengers img
 }
 
 
+.form .agree .checkbox
+{
+    font-size: 14px;
+
+    position: relative;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    min-height: 20px;
+    padding-left: 31px;
+
+    cursor: pointer;
+
+    color: #afbcc8;
+}
+
+
+.form .agree .checkbox input
+{
+    display: none;
+}
+
+
+.form .agree .checkbox .check
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 20px;
+    height: 20px;
+
+    transition: background .2s linear;
+
+    color: #fff;
+    border: 1px solid #2f7abe;
+    border-radius: 2px;
+}
+
+
+.form .agree .checkbox .check .icon
+{
+    display: block;
+
+    width: 12px;
+    height: 10px;
+
+    transition: opacity .2s linear;
+
+    opacity: 0;
+}
+
+
+.form .agree .checkbox input:checked ~ .check
+{
+    background: #2f7abe;
+}
+
+
+.form .agree .checkbox input:checked ~ .check .icon
+{
+    opacity: 1;
+}
+
+
 .form .submit_btn
 {
     font-size: 18px;
@@ -2606,18 +2681,17 @@ header .contacts .messengers img
 }
 
 
-.vacancies .vacancy .link a
+.vacancies .vacancy .link .btn
 {
     font-size: 18px;
     font-weight: 500;
 
     display: block;
 
+    width: 100%;
     padding: 11px;
 
     transition: .2s linear;
-    text-align: center;
-    text-decoration: none;
 
     color: #fff;
     border: 1px solid transparent;
@@ -4447,6 +4521,15 @@ footer .privacy_policy_link a
 }
 
 
+.modal_desc
+{
+    font-size: 18px;
+    line-height: 130%;
+
+    margin-bottom: 40px;
+}
+
+
 
 #region_modal .form .input
 {
@@ -4722,4 +4805,55 @@ footer .privacy_policy_link a
 #region_modal .tips .checkbox input:checked ~ .check .icon
 {
     opacity: 1;
+}
+
+
+
+#callback_modal
+{
+    width: 760px;
+    padding: 50px 88px;
+
+    background: #f6f6f6;
+}
+
+
+#callback_modal .modal_title,
+#callback_modal .modal_desc
+{
+    text-align: center;
+}
+
+
+#callback_modal .form
+{
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+#callback_modal .form .input
+{
+    height: 46px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+
+#callback_modal .form .submit
+{
+    padding-top: 10px;
+}
+
+
+#callback_modal .form .submit_btn
+{
+    width: 282px;
+    max-width: 100%;
+    height: 46px;
+    margin: 0 auto;
+    padding: 12px;
+
+    background: #2f7abe;
 }

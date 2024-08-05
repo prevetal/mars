@@ -542,4 +542,11 @@
         padding-right: 15px;
         padding-left: 15px;
     }
+
+
+
+    #callback_modal
+    {
+        padding: 30px;
+    }
 }
